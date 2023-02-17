@@ -27,6 +27,12 @@ Requested Output:
 }        
 ```
 
+In some instances (example below) there was no domain on the portfolio page so I'd need more information on what should be output in these cases.  Currently an exception is caught and a message is shown.
+
+```
+Could not process None from https://lsvp.com/portfolio/full-truck-alliance/: Company Domain is empty
+```
+
 
 ## Assumptions
 This project assumes 
